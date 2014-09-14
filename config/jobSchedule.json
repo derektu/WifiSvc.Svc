@@ -1,0 +1,114 @@
+[
+    {
+        "mac" : "a4:67:06:65:11:6f",
+        "enable" : true,
+        "scheduleList" :
+            [
+                {
+                    "dayOfWeek" : 1,
+                    "hour" : 20,
+                    "minute" : 30
+                },
+                {
+                    "dayOfWeek" : 3,
+                    "hour" : 20,
+                    "minute" : 30
+                },
+                {
+                    "dayOfWeek" : 5,
+                    "hour" : 20,
+                    "minute" : 30
+                }
+            ]
+    },
+
+    {
+        "mac" : "a4:67:06:65:11:6f",
+        "enable" : false,
+        "scheduleList" :
+            [
+                {
+                    "dayOfWeek" : 1,
+                    "hour" : 21,
+                    "minute" : 0
+                },
+                {
+                    "dayOfWeek" : 3,
+                    "hour" : 21,
+                    "minute" : 0
+                },
+                {
+                    "dayOfWeek" : 5,
+                    "hour" : 21,
+                    "minute" : 30
+                }
+            ]
+    },
+
+    {
+        "mac" : "84:4b:f5:12:81:7d",
+        "enable" : true,
+        "scheduleList" :
+            [
+                {
+                    "dayOfWeek" : 1,
+                    "hour" : 17,
+                    "minute" : 30
+                },
+                {
+                    "dayOfWeek" : 2,
+                    "hour" : 20,
+                    "minute" : 0
+                },
+                {
+                    "dayOfWeek" : 3,
+                    "hour" : 17,
+                    "minute" : 30
+                },
+                {
+                    "dayOfWeek" : 4,
+                    "hour" : 20,
+                    "minute" : 0
+                },
+                {
+                    "dayOfWeek" : 5,
+                    "hour" : 17,
+                    "minute" : 30
+                }
+            ]
+    },
+
+    {
+        "mac" : "84:4b:f5:12:81:7d",
+        "enable" : false,
+        "scheduleList" :
+            [
+                {
+                    "dayOfWeek" : 1,
+                    "hour" : 19,
+                    "minute" : 0
+                },
+                {
+                    "dayOfWeek" : 2,
+                    "hour" : 21,
+                    "minute" : 30
+                },
+                {
+                    "dayOfWeek" : 3,
+                    "hour" : 19,
+                    "minute" : 0
+                },
+                {
+                    "dayOfWeek" : 4,
+                    "hour" : 21,
+                    "minute" : 30
+                },
+                {
+                    "dayOfWeek" : 5,
+                    "hour" : 19,
+                    "minute" : 0
+                }
+            ]
+    }
+
+]

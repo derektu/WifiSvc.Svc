@@ -1,0 +1,9 @@
+*.DS_Store
+node_modules/
+workspace.xml
+tasks.xml
+*.iws
+dictionaries/
+misc.xml
+backup/
+

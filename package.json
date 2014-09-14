@@ -1,0 +1,24 @@
+{
+  "name": "wifisvc",
+  "version": "0.0.1",
+  "description": "wifi service API",
+  "main": "server.js",
+  "dependencies": {
+    "basic-auth-connect": "^1.0.0",
+    "chai": "^1.9.1",
+    "cheerio": "^0.13.1",
+    "express": "^4.4.1",
+    "iconv-lite": "^0.2.11",
+    "jsdom": "^0.10.3",
+    "nconf": "^0.6.9",
+    "node-schedule": "^0.1.13",
+    "request": "^2.34.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "author": "derektu",
+  "license": "MIT"
+}

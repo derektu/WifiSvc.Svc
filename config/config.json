@@ -1,0 +1,13 @@
+{
+    "server" : {
+        "port" : 7070,
+        "auth" : false,
+        "user" : "wifisvc",
+        "password" : "1qaz@WSX"
+    },
+    "wifi" : {
+        "server" : "192.168.1.1",
+        "user" : "user",
+        "password" : "beagle"
+    }
+}

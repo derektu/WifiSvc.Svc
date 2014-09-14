@@ -1,0 +1,15 @@
+{
+	"devices":[
+		{ "name": "為為 iPhone", "mac": "c0:9f:42:7a:4b:14"},
+		{ "name": "為為 iPad2", "mac":"a4:67:06:65:11:6f" },
+		{ "name": "Elan 小米", "mac":"74:2f:68:25:78:17" },
+		{ "name": "Elan Nexus-7", "mac":"30:85:a9:dc:20:63" },
+		{ "name": "Elan Notebook", "mac":"84:4b:f5:12:81:7d" },
+		{ "name": "Derek Nexus 5", "mac":"C4:43:8F:F5:CC:E8" },
+		{ "name": "Derek MBP", "mac":"E4:CE:8F:32:AB:28" },
+		{ "name": "Derek iPhone5", "mac":"4c:8d:79:65:37:97" },
+		{ "name": "Derek iPadAir", "mac":"AC:CF:5C:AB:B9:FB" },
+		{ "name": "Derek Sony Experia", "mac":"30:39:26:97:f4:ef" },
+		{ "name": "AppleTV", "mac":"9c:20:7b:a6:f7:5c" }
+	]
+}
