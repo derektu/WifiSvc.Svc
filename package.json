@@ -7,12 +7,15 @@
     "basic-auth-connect": "^1.0.0",
     "chai": "^1.9.1",
     "cheerio": "^0.13.1",
+    "date-utils": "^1.2.16",
     "express": "^4.4.1",
     "iconv-lite": "^0.2.11",
     "jsdom": "^0.10.3",
     "nconf": "^0.6.9",
+    "nedb": "^0.11.1",
     "node-schedule": "^0.1.13",
-    "request": "^2.34.0"
+    "request": "^2.34.0",
+    "underscore": "^1.7.0"
   },
   "devDependencies": {},
   "scripts": {

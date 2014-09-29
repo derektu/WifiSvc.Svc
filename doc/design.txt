@@ -1,0 +1,50 @@
+//-----------------------------------------------
+// 每天使用限制
+//-----------------------------------------------
+
+- 每日使用限制設定檔 (dailyquota.json)
+    {
+       {
+        "mac" : "...",
+        "quota" : [
+            { dayOfWeek:1, minute: 40 },
+            { dayOfWeek:2, minute: 0 },
+            ..
+        ]
+       }
+    }
+
+- quota記錄
+    - fileName: ./data/quota.db
+    - 記錄某個mac最後一次使用的時間
+
+    - record
+        {
+            mac: ..,
+            date: ..
+        }
+
+- 啟動/關閉記錄
+    - fileName: ./data/accesslog.db
+    - 記錄開關mac的時間 (流水記錄)
+
+    - record
+        {
+            mac: ..,
+            enable: 1,  // 1=開, 0=觀
+            date: ..
+        }
+
+
+    /*
+       startMac(mac)
+       - 檢查mac是否是在list內, 並且檢查使用限制
+       - 啟動並且設定自動關閉時間
+       - restriction的設定如下:
+         - 每個mac定義一個restriction array,
+         - array有N個entries,
+         - 每個entry = { dayOfWeek:n, minute:n }
+         - dayOfWeek = 0 (Sunday), 1 (Monday), ..
+         - minute = 可以使用時間
+
+     */

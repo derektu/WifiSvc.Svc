@@ -14,7 +14,7 @@ var mac = 'FF:FF:FF:FF:FF:FF';
 // # to run single test
 // $ mocha test/testwificmd.js --timeout 5000 -g "getConnectionList"
 //
-describe("test wificmd", function() {
+describe.skip("test wificmd", function() {
 
     var _callback = function(err, result, done) {
         if (err != null) {

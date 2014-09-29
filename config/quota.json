@@ -1,0 +1,14 @@
+{
+    "quotas": {
+        "mac" : "c0:9f:42:7a:4b:14",
+        "allow" : [
+            { "dayOfWeek":1, "minute": 40 },
+            { "dayOfWeek":2, "minute": 40 },
+            { "dayOfWeek":3, "minute": 40 },
+            { "dayOfWeek":4, "minute": 40 },
+            { "dayOfWeek":5, "minute": 40 },
+            { "dayOfWeek":6, "minute": 40 },
+            { "dayOfWeek":0, "minute": 40 }
+        ]
+    }
+}

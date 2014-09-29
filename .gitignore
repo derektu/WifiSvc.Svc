@@ -6,4 +6,6 @@ tasks.xml
 dictionaries/
 misc.xml
 backup/
+data/
+*.db
 
