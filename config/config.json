@@ -6,7 +6,8 @@
         "password" : "1qaz@WSX"
     },
     "wifi" : {
-        "server" : "192.168.1.1",
+        "_server" : "http://192.168.1.1",
+        "server" : "http://220.134.121.195/zyxel",
         "user" : "user",
         "password" : "beagle"
     }
