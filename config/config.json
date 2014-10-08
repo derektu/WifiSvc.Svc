@@ -5,10 +5,17 @@
         "user" : "wifisvc",
         "password" : "1qaz@WSX"
     },
-    "wifi" : {
+    "_wifi" : {
+        "type" : "CHT",
         "_server" : "http://192.168.1.1",
         "server" : "http://220.134.121.195/zyxel",
         "user" : "user",
         "password" : "beagle"
+    },
+    "wifi" : {
+        "type" : "TP",
+        "server" : "http://192.168.0.1",
+        "user" : "admin",
+        "password" : "1qaz2wsx"
     }
 }
