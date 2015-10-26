@@ -1,0 +1,15 @@
+[
+    {
+        "mac" : "00:22:69:B5:D9:53",
+        "enable" : false,
+        "scheduleList" : [
+        	"*/1 * * * *",
+        	"0,10,20,30 23 * * *",
+        	{
+            	"dayOfWeek" : 1,
+                "hour" : 18,
+                "minute" : 0
+            }
+        ]
+    }
+]

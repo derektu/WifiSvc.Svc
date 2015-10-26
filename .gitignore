@@ -5,7 +5,4 @@ tasks.xml
 *.iws
 dictionaries/
 misc.xml
-backup/
-data/
-*.db
-
+config/
